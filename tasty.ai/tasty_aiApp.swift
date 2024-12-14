@@ -8,10 +8,14 @@
 import SwiftUI
 
 @main
-struct tasty_aiApp: App {
+struct TastyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RecipeListView()
         }
     }
+}
+
+#Preview {
+    RecipeListView()
 }
